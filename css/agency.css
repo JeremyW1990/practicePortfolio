@@ -5,6 +5,8 @@
  */
 
 body {
+  background-color: #090911;
+  color: white;
   overflow-x: hidden;
   font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
@@ -561,7 +563,7 @@ header.masthead .intro-text .intro-heading {
     min-height: 170px;
   }
   .timeline > li .timeline-panel {
-    padding: 0 20px 20px 100px;
+    padding: 0 20px 20px 20px;
   }
   .timeline > li .timeline-image {
     width: 170px;
@@ -572,7 +574,7 @@ header.masthead .intro-text .intro-heading {
     margin-top: 40px;
   }
   .timeline > li.timeline-inverted > .timeline-panel {
-    padding: 0 100px 20px 20px;
+    padding: 0 20px 20px 20px;
   }
 }
 
@@ -696,3 +698,13 @@ ul.social-buttons li a {
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #fed136;
 }
+
+
+
+
+/* customize css */
+.devicon-github-plain{
+  color: white;
+  font-size: 137px;
+}
+

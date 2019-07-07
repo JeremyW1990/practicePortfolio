@@ -21,7 +21,12 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
     <!-- Custom styles for this template -->
-    <link href="css/agency.min.css" rel="stylesheet">
+    <link href="css/agency.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+
+
 
   </head>
 
@@ -37,14 +42,15 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Skill</a>
-            </li>
+
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">Skill</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#team">Testimonial</a>
@@ -61,58 +67,21 @@
     <header class="masthead">
       <div class="container">
         <div class="intro-text">
-          <div class="intro-lead-in">Welcome To Jeremy's Studio!</div>
-          <div class="intro-heading text-uppercase">It's Nice To Meet You</div>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
+          <div class="intro-lead-in">Welcome To Jeremy's World!</div>
+          <!-- <div class="intro-heading text-uppercase">I am an open book here</div> -->
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#portfolio">Tell Me More</a>
         </div>
       </div>
     </header>
 
-    <!-- Services -->
-    <section id="services">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Skill</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-          </div>
-        </div>
-        <div class="row text-center">
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">E-Commerce</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-          </div>
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">Responsive Design</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-          </div>
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">Web Security</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <!-- Portfolio Grid -->
-    <section class="bg-light" id="portfolio">
+    <section class="bg-light" id="portfolio" style="color:black;background-color: #E8E8E8!important">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Portfolio</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h3 class="section-subheading text-muted">Each project presented with live site and GitHub repo.</h3>
           </div>
         </div>
         <div class="row">
@@ -123,11 +92,11 @@
                   <i class="fas fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">
+              <img class="img-fluid" src="img/portfolio/1.JPG" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Threads</h4>
-              <p class="text-muted">Illustration</p>
+              <h4>Dog-co</h4>
+              <p class="text-muted">A dog-walking app</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -137,67 +106,11 @@
                   <i class="fas fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
+              <img class="img-fluid" src="img/portfolio/2.JPG" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Explore</h4>
-              <p class="text-muted">Graphic Design</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Finish</h4>
-              <p class="text-muted">Identity</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Lines</h4>
-              <p class="text-muted">Branding</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Southwest</h4>
-              <p class="text-muted">Website Design</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Window</h4>
-              <p class="text-muted">Photography</p>
+              <h4>Wicked Sales</h4>
+              <p class="text-muted">A shipping cart app</p>
             </div>
           </div>
         </div>
@@ -226,7 +139,7 @@
                     <h4 class="subheading">Programming Enlightenment</h4>
                   </div>
                   <div class="timeline-body">
-                    <ul class="text-muted">
+                    <ul class="">
                         <li>My story with programming started when I was a kid.I wrote first “Hello World” in QBasic at 3rd Grade. 
                           At 7th Grade, I switched to Pascal for 4 years.</li>
                         <li>Started with simple math problem like implementing gauss formula, ie. 1+2+…100=?</li>
@@ -248,7 +161,7 @@
                     <h4 class="subheading">Electronic Engineering</h4>
                   </div>
                   <div class="timeline-body">
-                    <ul class="text-muted">
+                    <ul class="">
                       <li>Acquired two engineering degrees in England.</li>
                       <li>Programmed into semiconductors via FPGA.</li>
                       <li>Machines learning: trained it recognize numbers on licence plate images.</li>
@@ -267,12 +180,12 @@
                     <h4 class="subheading">Java Developer</h4>
                   </div>
                   <div class="timeline-body">
-                    <ul class="text-muted">
+                    <ul class="">
                         <li>Surprisingly, I landed my first job as a java developer.</li>
                         <li>Joined HSBC “Graduates Leadership Program”, contributed to the Data Service Layer (DSL) Project - 
                             A project aiming at transparentizing investment bank to American financial regulators.</li>
                         <li>Exposed myself with Agile methodology.</li>
-                        <li>It was a truely global project with a global team; this bank really boraden my horizon.</li>
+                        <li>It was a truely global project with a global team; this experience really boraden my horizon.</li>
                     </ul>
                   </div>
                 </div>
@@ -287,7 +200,7 @@
                     <h4 class="subheading">Finance</h4>
                   </div>
                   <div class="timeline-body">
-                    <ul class="text-muted">
+                    <ul class="">
                       <li>I Started a new career path in finance.</li>
                       <li>Founded my own private-equity company in Beijing.</li>
                     </ul>
@@ -304,7 +217,7 @@
                       <h4 class="subheading">Montreal, Canada</h4>
                     </div>
                     <div class="timeline-body">
-                      <ul class="text-muted">
+                      <ul class="">
                         <li>I was still at a confused phase of my life: where do I want to live? What should I do?</li>
                         <li>So I moved to Canada, took gap years, resting and thinking about those underlying life questions.</li>
                         <li>Self-Upgrade: workout, meditation, yoga, intermittent fasting.</li>
@@ -323,7 +236,7 @@
                       <h4 class="subheading">California - final home</h4>
                     </div>
                     <div class="timeline-body">
-                      <ul class="text-muted">
+                      <ul class="">
                         <li>Once I moved to California, I immediately started to prepare to go back to dev career path.</li>
                         <li>Consolidated full-stack web development skill set by average 60h/week, 3 months intense training 
                           in LearningFuze – one of the best bootcamp in Irvine.</li>
@@ -337,9 +250,10 @@
               </li>
               <li class="timeline">
                 <div class="timeline-image">
-                  <h4>Be Part
+                  <!-- <h4>Be Part
                     <br>Of My
-                    <br>Story!</h4>
+                    <br>Story!</h4> -->
+                    <img class="rounded-circle img-fluid" src="img/about/7.jpg" alt="">
                 </div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
@@ -347,7 +261,7 @@
                       <h4 class="subheading">Keep evolving</h4>
                     </div>
                     <div class="timeline-body">
-                      <ul class="text-muted">
+                      <ul class="">
                         <li>One philosophy I endorse: live the only life to maximum.</li>
                         <li>I've been wandering around the world, looking.</li>
                         <li>Experienced a lot and evolved a few times. Now try to settle down in California and dive into the code world.</li>
@@ -362,8 +276,195 @@
       </div>
     </section>
 
-    <!-- Team -->
-    <section class="bg-light" id="team">
+    <!-- Services -->
+    <section id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Skill</h2>
+            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-lg-2 col-md-3 col-sm-4">
+                <a href="https://www.javascript.com/about" target="_blank">
+                  <object type="image/svg+xml" data="https://icongr.am/devicon/javascript-original.svg?size=130">
+                    Your browser does not support SVG
+                  </object>
+                  <p class='text-muted'>JavaScript</p>
+                </a>
+            </div>  
+            <div class="col-lg-2 col-md-3 col-sm-4">
+                <a href="https://reactjs.org/" target="_blank">
+                  <object type="image/svg+xml" data="https://icongr.am/devicon/react-original.svg?size=130">
+                    Your browser does not support SVG
+                  </object>
+                  <p class='text-muted'>React</p>
+                </a>
+            </div>  
+            <div class="col-lg-2 col-md-3 col-sm-4">
+                <a href="https://redux.js.org/introduction/getting-started" target="_blank">
+                  <object type="image/svg+xml" data="./img/devicons/redux-seeklogo.com.svg" style="height: 130px">
+                    Your browser does not support SVG
+                  </object>
+                  <p class='text-muted'>Redux</p>
+                </a>
+            </div>  
+            <div class="col-lg-2 col-md-3 col-sm-4">
+                <a href="https://nodejs.org/about" target="_blank">
+                  <object type="image/svg+xml" data="https://icongr.am/devicon/nodejs-original.svg?size=130">
+                    Your browser does not support SVG
+                  </object>
+                  <p class='text-muted'>Node.JS</p>
+                </a>
+            </div>  
+            <div class="col-lg-2 col-md-3 col-sm-4">
+                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
+                  <object type="image/svg+xml" data="https://icongr.am/devicon/html5-original.svg?size=130">
+                    Your browser does not support SVG
+                  </object>
+                  <p class='text-muted'>HTML</p>
+                </a>
+            </div>   
+            <div class="col-lg-2 col-md-3 col-sm-4">
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
+                  <object type="image/svg+xml" data="https://icongr.am/devicon/css3-original.svg?size=130">
+                    Your browser does not support SVG
+                  </object>
+                  <p class='text-muted'>CSS</p>
+                </a>
+            </div>  
+            <div class="col-lg-2 col-md-3 col-sm-4">
+                <a href="https://www.mysql.com/" target="_blank">
+                  <object type="image/svg+xml" data="https://icongr.am/devicon/mysql-original.svg?size=130">
+                    Your browser does not support SVG
+                  </object>
+                  <p class='text-muted'>MySQL</p>
+                </a>
+            </div>   
+            <div class="col-lg-2 col-md-3 col-sm-4">
+                <a href="https://socket.io/docs/" target="_blank">
+                  <img 
+                    src="https://laracasts.com/images/series/2018/pngs/realtime-laravel-with-socket-io.png" 
+                    style="height: calc(130px + 1rem/2)">
+                  <p class='text-muted'>Socket.IO</p>
+                </a>
+            </div>  
+            <div class="col-lg-2 col-md-3 col-sm-4">
+                <a href="https://api.jquery.com/" target="_blank">
+                  <object type="image/svg+xml" data="https://icongr.am/devicon/jquery-original.svg?size=130">
+                    Your browser does not support SVG
+                  </object>
+                  <p class='text-muted'>jQuery</p>
+                </a>
+            </div>   
+            <div class="col-lg-2 col-md-3 col-sm-4">
+                <a href="https://git-scm.com/about" target="_blank">
+                  <object type="image/svg+xml" data="https://icongr.am/devicon/git-original.svg?size=130">
+                    Your browser does not support SVG
+                  </object>
+                  <p class='text-muted'>Git</p>
+                </a>
+            </div>  
+            <div class="col-lg-2 col-md-3 col-sm-4">
+                <a href="https://guides.github.com/" target="_blank">
+                  <!-- <object type="image/svg+xml" data="https://icongr.am/devicon/github-original.svg?size=130&color=FFFFFF">
+                    Your browser does not support SVG
+                  </object> -->
+                  <i class="devicon-github-plain"></i>
+                  <p class='text-muted'>GitHub</p>
+                </a>
+            </div>  
+            <div class="col-lg-2 col-md-3 col-sm-4">
+                <a href="https://aws.amazon.com/" target="_blank">
+                  <object type="image/svg+xml" data="https://icongr.am/devicon/amazonwebservices-original.svg?size=130">
+                    Your browser does not support SVG
+                  </object>
+                  <p class='text-muted'>AWS</p>
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4">
+                <a href="https://developers.google.com/web/tools/chrome-devtools/" target="_blank">
+                  <object type="image/svg+xml" data="https://icongr.am/devicon/chrome-original.svg?size=130">
+                    Your browser does not support SVG
+                  </object>
+                  <p class='text-muted'>Chrome Dev Tools</p>
+                </a>
+            </div>   
+            <div class="col-lg-2 col-md-3 col-sm-4">
+                <a href="https://getbootstrap.com/docs/4.3/getting-started/introduction/" target="_blank">
+                  <object type="image/svg+xml" data="./img/devicons/bootstrap-seeklogo.com.svg" style="height: 130px">
+                    Your browser does not support SVG
+                  </object>
+                  <p class='text-muted'>Bootstrap</p>
+                </a>
+            </div>  
+            <div class="col-lg-2 col-md-3 col-sm-4">
+                <a href="https://code.visualstudio.com/docs" target="_blank">
+                  <object type="image/svg+xml" data="https://icongr.am/devicon/visualstudio-plain.svg?size=130">
+                    Your browser does not support SVG
+                  </object>
+                  <p class='text-muted'>Visual Studio</p>
+                </a>
+            </div>  
+            <div class="col-lg-2 col-md-3 col-sm-4">
+                <a href="https://webpack.js.org/concepts/" target="_blank">
+                  <object type="image/svg+xml" data="https://icongr.am/devicon/webpack-original.svg?size=130">
+                    Your browser does not support SVG
+                  </object>
+                  <p class='text-muted'>Webpack</p>
+                </a>
+            </div>    
+            <div class="col-lg-2 col-md-3 col-sm-4">
+                <a href="https://www.mongodb.com/what-is-mongodb" target="_blank">
+                  <object type="image/svg+xml" data="https://icongr.am/devicon/mongodb-original.svg?size=130">
+                    Your browser does not support SVG
+                  </object>
+                  <p class='text-muted'>MongoDB</p>
+                </a>
+            </div>  
+            <div class="col-lg-2 col-md-3 col-sm-4">
+                <a href="https://en.wikipedia.org/wiki/Agile_software_development" target="_blank">
+                  <img src="https://www.aresourcepool.com/wp-content/uploads/2017/09/agile.png" style="height: calc(130px + 1rem/2)">
+                  <p class='text-muted'>Agile</p>
+                </a>
+            </div>    
+         
+   
+
+   
+             
+
+          <!-- <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">E-Commerce</h4>
+            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">Responsive Design</h4>
+            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">Web Security</h4>
+            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial -->
+    <!-- <section class="bg-light" id="team">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
@@ -451,10 +552,10 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Clients -->
-    <section class="py-5">
+    <!-- <section class="py-5">
       <div class="container">
         <div class="row">
           <div class="col-md-3 col-sm-6">
@@ -479,15 +580,15 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Contact -->
     <section id="contact">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Contact Us</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h2 class="section-heading text-uppercase">Contact Me</h2>
+            <h3 class="section-subheading text-muted"></h3>
           </div>
         </div>
         <div class="row">
@@ -531,7 +632,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <span class="copyright">Copyright &copy; Your Website 2018</span>
+            <span class="copyright">Copyright &copy; Jeremy Wang 2019</span>
           </div>
           <div class="col-md-4">
             <ul class="list-inline social-buttons">
@@ -554,12 +655,12 @@
           </div>
           <div class="col-md-4">
             <ul class="list-inline quicklinks">
-              <li class="list-inline-item">
+              <!-- <li class="list-inline-item">
                 <a href="#">Privacy Policy</a>
               </li>
               <li class="list-inline-item">
                 <a href="#">Terms of Use</a>
-              </li>
+              </li> -->
             </ul>
           </div>
         </div>
@@ -582,18 +683,38 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <h2 class="text-uppercase">Dog-CO</h2>
+                  <p class="item-intro text-muted">A dog-walking app</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/1.JPG" alt="">
+                  <p> Walking dog is every dog owners’ daily routine. But owners may not be able to do this every day. 
+                      A lot of things may get in their way: late working day, road trips, family visit. 
+                      But your dog is not taking a no for an answer. Going outside or baking at you all night.
+                  </p>
+                  <p>
+                      It’s an app connecting owners at a local community.  
+                      If you can walk your own dog, you can walk a few at the same time. 
+                      By taking turns, dog owners can reduce the tasks from daily to two or three times a week. 
+                      Set the apps, put information about your dog hand-out time, its walking time preference, etc and wait for the help. 
+                      Or raise a hand on this app, telling your neighbors that you are able to talk your pet at a certain time and if they need a hand.
+                  </p> 
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Threads</li>
-                    <li>Category: Illustration</li>
+                    <li>Date: June 2019</li>
+                    <li>Category: Lifestyle</li>
+                    <li>Technique: React, NodeJS, Socket.IO, MySQL</li>
                   </ul>
+                  <a href="https://dog-co.jeremywang.dev" target="_blank">
+                    <button class="btn btn-primary"  type="button">
+                        <i class="fas fa-desktop"></i>
+                        Live</button>
+                  </a>
+                  <a href="https://github.com/JeremyW1990/dog-co" target="_blank">                  
+                    <button class="btn btn-primary" type="button">
+                      <i class="fab fa-github"></i>
+                      GitHub</button>
+                  </a>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fas fa-times"></i>
-                    Close Project</button>
+                      <i class="fas fa-times"></i>
+                      Close</button>
                 </div>
               </div>
             </div>
@@ -616,18 +737,31 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
+                  <h2 class="text-uppercase">Wicked Sales</h2>
                   <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/2.JPG" alt="">
+                  <p>
+                      A mock e-commerce online shopping website where Jeremy puts all his desires as goods: real or surreal ones. 
+                      Make sure you read the item's description. It's fun.
+                  </p>
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Explore</li>
-                    <li>Category: Graphic Design</li>
+                    <li>Date: May 2019</li>
+                    <li>Category: CMS</li>
+                    <li>Technique: React, PHP, MySQL</li>
                   </ul>
+                  <a href="https://wicked-sales.jeremywang.dev/" target="_blank">
+                    <button class="btn btn-primary"  type="button">
+                        <i class="fas fa-desktop"></i>
+                        Live</button>
+                  </a>
+                  <a href="https://github.com/JeremyW1990/wicked-sales" target="_blank">                  
+                    <button class="btn btn-primary" type="button">
+                      <i class="fab fa-github"></i>
+                      GitHub</button>
+                  </a>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fas fa-times"></i>
-                    Close Project</button>
+                      <i class="fas fa-times"></i>
+                      Close</button>
                 </div>
               </div>
             </div>
