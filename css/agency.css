@@ -711,3 +711,15 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 .modal-body  {
   color: #090911  
 }
+
+button.navbar-toggler.navbar-toggler-right {
+  color: #090911 !important
+}
+
+.intro-text a {
+  color: #090911;
+}
+
+#sendMessageButton{
+  color: #090911;
+}
