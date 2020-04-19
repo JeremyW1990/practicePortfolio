@@ -5,25 +5,16 @@ phases:
   install: 
     commands:
       - echo Installing ...
-      - curl -sL https://deb.nodesource.com/setup_12.x | bash -
-      - apt-get install -y nodejs
   pre_build:
     commands:
-      - echo Installing source NPM dependencies...
-      - npm install
+      - echo pre_building ...
   build:
     commands:
       - echo Build started...
-      - npm build
   post_build:
     commands:
       - echo Build completed 
 # Include only the files required for your application to run.
-# Do not use recursively include artifacts from node_modules directory as it will include unnecessary packages 
-# used only for building and testing.
-# ExpressJS apps will need other artifact directories included (bin/*, public/*, routes/*, views/* etc).
 artifacts:
     files:
         - "**/*"
-    discard-paths: no
-    base-directory: dist
