@@ -6,7 +6,7 @@ phases:
     commands:
       - echo Installing ...
       - curl -sL https://deb.nodesource.com/setup_12.x | bash -
-      - sudo apt-get install -y nodejs
+      - apt-get install -y nodejs
   pre_build:
     commands:
       - echo Installing source NPM dependencies...
