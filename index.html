@@ -43,9 +43,9 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ml-auto">
 
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-            </li>
+            </li> -->
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#about">About</a>
             </li>
@@ -67,14 +67,14 @@
         <div class="intro-text">
           <div class="intro-lead-in">Welcome To Jeremy's World!</div>
           <!-- <div class="intro-heading text-uppercase">I am an open book here</div> -->
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#portfolio">Tell Me More</a>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#about">Tell Me More</a>
         </div>
       </div>
     </header>
 
 
     <!-- Portfolio Grid -->
-    <section class="bg-light" id="portfolio" style="color:black;background-color: #E8E8E8!important">
+    <!-- <section class="bg-light" id="portfolio" style="color:black;background-color: #E8E8E8!important">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
@@ -141,7 +141,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
 
 
@@ -260,7 +260,7 @@
                   <div class="timeline-panel">
                     <div class="timeline-heading">
                       <h4>Jan, 1st, 2019</h4>
-                      <h4 class="subheading">California - final home</h4>
+                      <h4 class="subheading">California</h4>
                     </div>
                     <div class="timeline-body">
                       <ul class="">
@@ -275,12 +275,49 @@
                     </div>
                   </div>
               </li>
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/verys.png" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>July, 2019</h4>
+                    <h4 class="subheading">First Offer</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <ul class="">
+                      <li>Landed my job as a React Developer at a company called Verys</li>
+                      <li>Rotated among a few big clients; real-world experiece ramped up rapidly</li>
+                      <li>Learned AWS at my own time after work; Obtained two certifications and asked for more responsibility at work</li> 
+                      <li>Passionated about cloud technology and trying to be a good DevOps</li> 
+                      <li>Participated architecture design, migrated projects to aws, setup isolated environments for developers, built CICD, etc..</li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/austin.png" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>Nov, 2019</h4>
+                    <h4 class="subheading">Moved to Austin</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <ul class="">
+                      <li>Verys wanted to open a new office in Austin and sent me here</li>
+                      <li>The office didn't happen due to COVID but I loved Austin too much that I decided to settle down in this city</li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
               <li class="timeline">
                 <div class="timeline-image">
                   <!-- <h4>Be Part
                     <br>Of My
                     <br>Story!</h4> -->
-                    <img class="rounded-circle img-fluid" src="img/about/7.jpg" alt="">
+                    <img class="rounded-circle img-fluid" src="img/about/jeremy.jpg" alt="">
                 </div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
@@ -290,9 +327,9 @@
                     <div class="timeline-body">
                       <ul class="">
                         <li>One philosophy I endorse: live the only life to the maximum.</li>
-                        <li>I've been wandering around the world, looking.</li>
-                        <li>Experienced a lot and evolved a few times. Now try to settle down in California and dive into the code world.</li>
-                        <li>Career takes 1/3 of our lifetime. It weighs significantly in life. I expect to find a company that I can evolve together with.</li>
+                        <li>I've been wandering around the world, exploring. Experienced a lot and evolved a few times.</li>
+                        <li>Career takes 1/3 of our lifetime. It weighs significantly in life.</li>
+                        <li>I am looking for a company specialized in cloud so I can evolve together with.</li>
                       </ul>
                     </div>
                   </div>
@@ -314,6 +351,25 @@
           </div>
         </div>
         <div class="row text-center">
+            <div class="col-lg-2 col-md-3 col-sm-4">
+              <a href="https://aws.amazon.com/" target="_blank">
+                <object type="image/svg+xml" data="https://icongr.am/devicon/amazonwebservices-original.svg?size=130">
+                  Your browser does not support SVG
+                </object>
+                <p class='text-muted'>AWS</p>
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4">
+              <a href="https://aws.amazon.com/" target="_blank">
+                <!-- <object type="image/svg+xml" data="./img/devicons/terraform.svg" style="height: 130px">
+                  Your browser does not support SVG
+                </object> -->
+                <img src="https://dashboard.snapcraft.io/site_media/appmedia/2019/11/terraform.png" style="height: 136px">
+                <p class='text-muted'>Terraform</p>
+
+              </img>
+              </a>
+            </div>
             <div class="col-lg-2 col-md-3 col-sm-4">
                 <a href="https://www.javascript.com/about" target="_blank">
                   <object type="image/svg+xml" data="https://icongr.am/devicon/javascript-original.svg?size=130">
@@ -369,15 +425,7 @@
                   </object>
                   <p class='text-muted'>MySQL</p>
                 </a>
-            </div>   
-            <div class="col-lg-2 col-md-3 col-sm-4">
-                <a href="https://socket.io/docs/" target="_blank">
-                  <img 
-                    src="https://laracasts.com/images/series/2018/pngs/realtime-laravel-with-socket-io.png" 
-                    style="height: calc(130px + 1rem/2)">
-                  <p class='text-muted'>Socket.IO</p>
-                </a>
-            </div>  
+            </div>    
             <div class="col-lg-2 col-md-3 col-sm-4">
                 <a href="https://api.jquery.com/" target="_blank">
                   <object type="image/svg+xml" data="https://icongr.am/devicon/jquery-original.svg?size=130">
@@ -403,14 +451,6 @@
                   <p class='text-muted'>GitHub</p>
                 </a>
             </div>  
-            <div class="col-lg-2 col-md-3 col-sm-4">
-                <a href="https://aws.amazon.com/" target="_blank">
-                  <object type="image/svg+xml" data="https://icongr.am/devicon/amazonwebservices-original.svg?size=130">
-                    Your browser does not support SVG
-                  </object>
-                  <p class='text-muted'>AWS</p>
-                </a>
-            </div>
             <div class="col-lg-2 col-md-3 col-sm-4">
                 <a href="https://developers.google.com/web/tools/chrome-devtools/" target="_blank">
                   <object type="image/svg+xml" data="https://icongr.am/devicon/chrome-original.svg?size=130">
